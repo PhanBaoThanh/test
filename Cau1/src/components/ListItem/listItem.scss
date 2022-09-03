@@ -1,0 +1,43 @@
+.list__item{
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .list__item__text{
+        font-size: 16px;
+        max-width: 80%;
+    }
+
+    .list__item__btn{
+        display: flex;
+        .list__item__btn__change{
+            cursor: pointer;
+            margin-right: 8px;
+            color: rgb(201, 150, 11);
+        }
+
+        .list__item__btn__delete{
+            cursor: pointer;
+            color: rgb(187, 3, 3);
+            margin-right: 8px;
+        }
+
+        .list__item__btn__completed{
+            cursor: pointer;
+            color: rgb(65, 199, 13);
+        }
+
+        .list__item__btn__cancel{
+            cursor: pointer;
+            color: rgb(187, 3, 3);
+        }
+    }
+}
+
+.list__item:hover{
+    background-color: rgb(139, 139, 139);
+}
